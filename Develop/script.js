@@ -44,10 +44,10 @@ function generatePassword(){
     var confirmLowerCase = confirm( "Click OK to include lowercase characters." );
     var confirmUpperCase = confirm( "Click OK to include uppercase characters." );
 
-    console.log('confirmSpecialCharacters');
-    console.log('confirmNumbers');
-    console.log('confirmLowerCase');
-    console.log('confirmUpperCase');
+    console.log(confirmSpecialCharacters);
+    console.log(confirmNumbers);
+    console.log(confirmLowerCase);
+    console.log(confirmUpperCase);
    }
     var passwordLength= prompt('please type your passwrod below then press ok to submit.')
     
@@ -58,7 +58,7 @@ function generatePassword(){
  
   else {
     alert( "Please use characters between 8-24." );
-    return Invalid ;
+    console.log(alert);
    };
 
 
@@ -105,10 +105,8 @@ function generatePassword(){
      for (let i = 0; i < length; i++) {
       password += allowedCharacters[Math.floor(Math.random() * allowedCharacters.length)]
     }
-  
     return password;
-  
-  }
+  };
    
-   
+
   
