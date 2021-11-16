@@ -9,7 +9,7 @@
 - [Create By](#create-by)
 
 # General info
-
+Creating the password generator with password length of 8 to 128 characters.
 # Code Style
 Standard
 
@@ -21,7 +21,8 @@ The following technology have been used for this project:
 2. CSS
 3. JavaScript
 # Status
-Project status: 
+Project status: completed.
 # Create By
 Mahtab Salahshoor @2021
 
+![](Assets/final%20password-generator.png)

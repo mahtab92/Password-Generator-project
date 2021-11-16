@@ -140,7 +140,7 @@ function generatePassword() {
   if (confirmUpperCase === true) {
     passwordCharacter = passwordCharacter.concat(numbers);
   }
-
+  //for loop to create a Final password
   var passwordFinal = "";
   for (var i = 0; i < passwordLength; i++) {
     passwordFinal =
